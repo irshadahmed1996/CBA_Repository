@@ -8,8 +8,7 @@ int main()
 {
     int i, j, n;
 
-    printf("Enter value of n : ");
-    scanf("%d", &n);
+    n=5;
 
     // Loop to print upper half of the pattern
     for(i=1; i<=n; i++)
