@@ -22,4 +22,5 @@ int main() {
 		samp = samp + 1;
 		printf("\n");
 	}
+	return 0;
 }
