@@ -1,11 +1,11 @@
 language: c
 	sudo: false # only for faster builds
-	script:
-	  - clang -coverage -O0 pattern.c -o pattern
-	  - ./pattern
-	  - gcov pattern.c
+	 script:
+	   - clang -coverage -O0 pattern.c -o pattern
+	   - ./pattern
+	   - gcov pattern.c
 	
-	after_success:
-	  - bash <(curl -s https://codecov.io/bash)
+	  after_success:
+	    - bash <(curl -s https://codecov.io/bash)
 
 
