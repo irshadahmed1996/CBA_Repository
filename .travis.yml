@@ -9,8 +9,6 @@ script:
   - ./basu
   - clang -coverage -O0 anand.c -o anand
   - ./anand
-	
-
 
 
 
