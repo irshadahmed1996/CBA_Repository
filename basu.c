@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main() {
+int main() {
 	int i,j,k,samp=1;
 	for (i=1; i<=5; i++) {
 		for (k=samp; k<=5; k++) {
