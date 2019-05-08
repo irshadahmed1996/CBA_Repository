@@ -4,6 +4,15 @@ script:
   - clang -coverage -O0 pattern.c -o pattern
   - ./pattern
   - gcov pattern.c	
+  - clang -coverage -O0 pavan.c -o pavan
+  - ./pavan
+  - gcov pavan.c	
+  - clang -coverage -O0 basu.c -o basu
+  - ./basu
+  - gcov basu.c	
+  - clang -coverage -O0 anand.c -o anand
+  - ./anand
+  - gcov anand.c	
 after_success:
  - bash <(curl -s https://codecov.io/bash)
 
