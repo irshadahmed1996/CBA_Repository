@@ -7,8 +7,8 @@ matrix:
        - gcc
       script:
          - gcc -o test pattern.c
-         - gcc -o test Basu.c
-         - gcc -o test anand.c
-         - gcc -o test pavan.c
+        // - gcc -o test Basu.c
+         //- gcc -o test anand.c
+         //- gcc -o test pavan.c
          -./test
            
